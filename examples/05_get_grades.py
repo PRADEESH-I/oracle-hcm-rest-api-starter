@@ -3,6 +3,7 @@
 Run:
     python examples/05_get_grades.py
 """
+
 from hcm_client import Config, HCMClient
 
 

@@ -4,6 +4,7 @@ Values are pulled from environment variables, optionally bootstrapped by
 a ``.env`` file via ``python-dotenv``. The resulting :class:`Config` is
 frozen so it can be safely shared between threads.
 """
+
 from __future__ import annotations
 
 import os

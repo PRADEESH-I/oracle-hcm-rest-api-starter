@@ -3,6 +3,7 @@
 Run:
     python examples/01_get_workers.py
 """
+
 from hcm_client import Config, HCMClient
 
 

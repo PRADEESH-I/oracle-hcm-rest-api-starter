@@ -3,6 +3,7 @@
 Run:
     python examples/04_get_locations.py
 """
+
 from collections import defaultdict
 
 from hcm_client import Config, HCMClient

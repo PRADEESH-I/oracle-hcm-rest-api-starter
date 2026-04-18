@@ -3,6 +3,7 @@
 A single ``get_logger`` factory returns a module-scoped logger with a
 consistent format across the client, examples, and tests.
 """
+
 from __future__ import annotations
 
 import logging

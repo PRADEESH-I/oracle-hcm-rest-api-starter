@@ -5,6 +5,7 @@ Demonstrates server-side filtering via the ``q`` query parameter.
 Run:
     python examples/02_get_jobs.py
 """
+
 from hcm_client import Config, HCMClient
 
 

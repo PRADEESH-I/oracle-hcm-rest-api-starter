@@ -3,6 +3,7 @@
 All HTTP traffic is mocked, so these tests run without network access
 and without real Oracle HCM credentials.
 """
+
 import json
 from pathlib import Path
 
@@ -118,9 +119,7 @@ def test_400_raises_base_hcm_error(client):
     with pytest.raises(HCMError) as excinfo:
         client.get("/workers")
 
-    assert not isinstance(
-        excinfo.value, (AuthError, NotFoundError, ServerError)
-    )
+    assert not isinstance(excinfo.value, (AuthError, NotFoundError, ServerError))
 
 
 @responses.activate

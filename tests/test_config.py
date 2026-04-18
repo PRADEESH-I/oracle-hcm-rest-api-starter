@@ -3,6 +3,7 @@
 These tests do not make any network calls — they only exercise the
 environment-variable loading logic.
 """
+
 import os
 
 import pytest
@@ -60,9 +61,7 @@ def test_api_root_strips_trailing_slash(monkeypatch):
 
     cfg = Config.from_env(dotenv_path=_NO_DOTENV)
 
-    assert cfg.api_root == (
-        "https://example.oraclecloud.com/hcmRestApi/resources/11.13.18.05"
-    )
+    assert cfg.api_root == ("https://example.oraclecloud.com/hcmRestApi/resources/11.13.18.05")
 
 
 def test_verify_ssl_false_parsed(monkeypatch):

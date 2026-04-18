@@ -3,6 +3,7 @@
 Run:
     python examples/03_get_departments.py
 """
+
 from hcm_client import Config, HCMClient
 
 

@@ -9,6 +9,7 @@ The :class:`HCMClient` wraps :mod:`requests` with:
   dedicated exceptions in :mod:`hcm_client.errors`
 * An opt-in ``verbose`` mode that logs a compact summary of each response
 """
+
 from __future__ import annotations
 
 import json
@@ -70,9 +71,7 @@ class HCMClient:
         before_sleep=before_sleep_log(logger, logging.INFO),
         reraise=True,
     )
-    def get(
-        self, endpoint: str, params: Optional[Dict[str, Any]] = None
-    ) -> Dict[str, Any]:
+    def get(self, endpoint: str, params: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
         """Issue a GET against an HCM REST endpoint and return parsed JSON."""
         url = self._url(endpoint)
         logger.info("GET %s params=%s", url, params or {})

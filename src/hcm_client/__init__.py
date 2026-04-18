@@ -1,4 +1,5 @@
 """Oracle HCM Cloud REST API client — public package interface."""
+
 from .client import HCMClient
 from .config import Config
 from .errors import (
