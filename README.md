@@ -183,7 +183,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Acknowledgments
 
-Built by [Pradeesh Irulappan](https://github.com/PRADEESH-I) as part
-of the **Oracle ACE Apprentice Program** on the OCI Data Science
-learning path. Thanks to the Oracle Fusion Apps documentation team for
-the public demo environment that made live testing possible.
+Built by [Pradeesh Irulappan](https://github.com/PRADEESH-I), Oracle HCM Consultant at Excelencia iTech Consulting, Chennai, India as part of the Oracle ACE Apprentice Program. Thanks to the Oracle Fusion Apps documentation team for the public demo environment that made live testing possible.
