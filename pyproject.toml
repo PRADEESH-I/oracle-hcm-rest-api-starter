@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hcm-client"
+version = "0.1.0"
+description = "Beginner-friendly Python starter for the Oracle HCM Cloud REST API"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Pradeesh Irulappan", email = "ipradeesh6@gmail.com" },
+]
+keywords = ["oracle", "hcm", "fusion", "rest", "api", "cloud"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "tenacity>=8.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "responses>=0.23.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/PRADEESH-I/oracle-hcm-rest-api-starter"
+Repository = "https://github.com/PRADEESH-I/oracle-hcm-rest-api-starter"
+Issues = "https://github.com/PRADEESH-I/oracle-hcm-rest-api-starter/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

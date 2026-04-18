@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "JobId": 300000001111001,
+      "JobCode": "ENG_MGR",
+      "Name": "Engineering Manager",
+      "ActiveStatus": "ACTIVE",
+      "FullPartTime": "F",
+      "ApprovalAuthority": "1",
+      "links": []
+    },
+    {
+      "JobId": 300000001111002,
+      "JobCode": "SW_ENG",
+      "Name": "Software Engineer",
+      "ActiveStatus": "ACTIVE",
+      "FullPartTime": "F",
+      "ApprovalAuthority": null,
+      "links": []
+    },
+    {
+      "JobId": 300000001111003,
+      "JobCode": "HR_GEN",
+      "Name": "HR Generalist",
+      "ActiveStatus": "ACTIVE",
+      "FullPartTime": "P",
+      "ApprovalAuthority": null,
+      "links": []
+    }
+  ],
+  "count": 3,
+  "hasMore": true,
+  "limit": 3,
+  "offset": 0,
+  "links": []
+}
