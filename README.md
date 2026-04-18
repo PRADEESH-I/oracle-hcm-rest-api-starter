@@ -1,12 +1,13 @@
 # oracle-hcm-rest-api-starter
 
+[![CI](https://github.com/PRADEESH-I/oracle-hcm-rest-api-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/PRADEESH-I/oracle-hcm-rest-api-starter/actions/workflows/ci.yml)
+[![Python versions](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 > A beginner-friendly Python starter kit for calling the **Oracle HCM
 > Cloud REST API**. Clone it, drop in your credentials, and have your
 > first worker record back in under five minutes.
-
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Code style: PEP 8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://peps.python.org/pep-0008/)
 
 ## Why this exists
 
