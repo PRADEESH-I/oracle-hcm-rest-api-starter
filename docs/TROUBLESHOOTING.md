@@ -14,6 +14,13 @@ them.
   but if in doubt, put the value in single quotes.
 - Account may be password-expired — reset it from the HCM UI.
 
+> **Public demo pod note:** if you are pointing at one of Oracle's
+> public Fusion Applications demo pods, a fresh 401 that wasn't there
+> yesterday usually means the shared demo credentials rotated on
+> Oracle's side — the client code is fine. Refresh `.env` with
+> Oracle's current published demo password, or point `HCM_BASE_URL`
+> at your own Fusion pod.
+
 ## `AuthError: HTTP 403`
 
 > `HTTP 403 from https://.../departments: ...`
