@@ -38,6 +38,15 @@ Fusion Applications public demo pod.
 
 Full field-level notes in [docs/ENDPOINTS.md](docs/ENDPOINTS.md).
 
+### Advanced: expanding child resources
+
+See [`examples/10_get_worker_names.py`](examples/10_get_worker_names.py)
+for a short demo of the `expand` query parameter — it fetches each
+worker's `names` child collection inline in a single round-trip,
+avoiding the classic N+1 pattern of one request per child. The file's
+docstring walks through the child-resource model, why `expand` beats
+separate calls, and how the feature relates to the HATEOAS constraint.
+
 ## Quick start
 
 ```bash
